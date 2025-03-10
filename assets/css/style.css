@@ -1,0 +1,138 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    background: linear-gradient(-45deg, #f60e06, #0410f4, #f40202);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: gold !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: gold;
+}
+
+/* Emergency Alert Banner */
+.alert-danger {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Login Forms */
+.card {
+    background: rgba(0, 0, 50, 0.9);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+    text-align: center;
+}
+
+h2 {
+    color: gold;
+    font-weight: bold;
+}
+
+/* Form Inputs */
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus {
+    border-color: gold;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background: gold;
+    color: black;
+}
+
+.btn-primary:hover {
+    background: white;
+    color: black;
+}
+
+.btn-danger {
+    background: red;
+}
+
+.btn-danger:hover {
+    background: darkred;
+}
+
+/* Register Link */
+.text-warning {
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.text-warning:hover {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+.marquee-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 5px;
+}
+
