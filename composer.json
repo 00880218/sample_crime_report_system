@@ -1,0 +1,7 @@
+{
+    "name": "Danish-raja/crime-report-system",
+    "description": "A crime report system built with PHP.",
+    "require": {
+      "vlucas/phpdotenv": "^5.4"
+    }
+  }
